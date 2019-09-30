@@ -3,7 +3,7 @@ var i;
 
 function takeANumber(Array)
 {
-  var numberinline = Array.length + 1;
+  var numberinline = Array[Array.length - 1];
   
 
   Array.push(string);
