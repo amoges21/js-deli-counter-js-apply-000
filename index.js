@@ -50,6 +50,7 @@ function nowServing(Array)
  {
         var thestring  = "";
         
+<<<<<<< HEAD
    for ( i = 0 ; i < Array.length ; ++i)
    {
      var position = i +1;
@@ -65,6 +66,15 @@ else
 {
        thestring = thestring + position  + ". " + Array[i] + ", "
 }
+=======
+   for ( i = 1 ; i < Array.length ; ++i)
+   {
+     thestring = thestring + i  + ". " + Array[i - 1] + ", ";
+     
+
+                 return "The line is currently: " + thestring;
+
+>>>>>>> d764054cabbf66928a9ee3b3127ae04cb9066a13
 
    }
   
