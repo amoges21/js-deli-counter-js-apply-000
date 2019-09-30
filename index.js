@@ -7,9 +7,6 @@ function takeANumber(Array)
   
 
 //  Array.push(string);
-  
-
-  
   //  console.log(Array);
   
     return "Welcome, " +"You are number " + numberthepersontook;
