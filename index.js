@@ -1,9 +1,9 @@
 var i;
-var emptyarray = [];
+
 
 function takeANumber(Array)
 {
-  //var numberinline = Array.length + 1;
+  var numberinline = Array.length + 1;
   
 
   Array.push(string);
