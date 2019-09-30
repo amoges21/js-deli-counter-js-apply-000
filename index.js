@@ -1,15 +1,17 @@
 var i;
+var emptyarray = [];
 
-function takeANumber(Array, string)
+function takeANumber(Array)
 {
-  var numberinline = Array.length + 1;
+  //var numberinline = Array.length + 1;
+  
 
   Array.push(string);
   
   
     console.log(Array);
   
-    return "Welcome, " + string + ". You are number " + numberinline  + " in line." ;
+    return "Welcome, " +"You are number " + Array.length  + " in line." ;
    
 }
 
