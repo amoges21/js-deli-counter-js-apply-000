@@ -6,14 +6,16 @@ function takeANumber(Array)
   var numberthepersontook = Array[Array.length - 1];
   
 
-  Array.push(string);
+//  Array.push(string);
   
+
   
-    console.log(Array);
+  //  console.log(Array);
   
-    return "Welcome, " +"You are number " + Array.length  + " in line." ;
-   
+    return "Welcome, " +"You are number " + numberthepersontook;
+    
 }
+
 
 
 function nowServing(Array)
