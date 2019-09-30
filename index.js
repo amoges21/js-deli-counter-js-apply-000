@@ -3,7 +3,7 @@ var i;
 
 function takeANumber(Array)
 {
-  var numberinline = Array[Array.length - 1];
+  var numberthepersontook = Array[Array.length - 1];
   
 
   Array.push(string);
